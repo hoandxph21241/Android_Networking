@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/idUsers"
+            android:hint="idUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/idTruyens"
+            android:hint="idTruyen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/nameTruyens"
+            android:hint="nameTruyen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/dates"
+            android:hint="date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/noidungs"
+            android:hint="noidung"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUB"/>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DEL" />
+        <ProgressBar
+            android:id="@+id/progessbar"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btnload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load"/>
+    </LinearLayout>
+    <ListView
+        android:layout_margin="10dp"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

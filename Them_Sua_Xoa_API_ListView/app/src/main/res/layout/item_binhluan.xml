@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id_User"
+            android:textColor="#f003"/>
+        <TextView
+            android:id="@+id/id_User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   id_User"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="idTruyen:"
+            android:textColor="#f003"/>
+        <TextView
+            android:id="@+id/idTruyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  idTruyen"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nameTruyen:"
+            android:textColor="#f003"/>
+        <TextView
+            android:id="@+id/nameTruyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  nameTruyen"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date:"
+            android:textColor="#f003"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  date"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="noidung:"
+            android:textColor="#f003"/>
+        <TextView
+            android:id="@+id/noidung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  noidung"/>
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <Button-->
+<!--            android:id="@+id/btn_edit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Bình Luận" />-->
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>
